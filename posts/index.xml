@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Toha</title>
+    <link>https://hanhao2017.github.io/posts/</link>
+    <description>Recent content in Posts on Toha</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 18 Jun 2020 21:33:51 +0800</lastBuildDate>
+    
+	<atom:link href="https://hanhao2017.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Blog</title>
+      <link>https://hanhao2017.github.io/posts/windows%E4%B8%8Bhugo%E7%BD%91%E9%A1%B5%E5%88%B6%E4%BD%9C/</link>
+      <pubDate>Thu, 18 Jun 2020 21:33:51 +0800</pubDate>
+      
+      <guid>https://hanhao2017.github.io/posts/windows%E4%B8%8Bhugo%E7%BD%91%E9%A1%B5%E5%88%B6%E4%BD%9C/</guid>
+      <description>创建网站所在文件夹 hugo new site 文件夹名字
+在hugo主页下载主题，下载到文件夹的themes下 git clone github仓库网址 themes/主题名 要输入密码
+启动博客（此时可以打开博客网页了）（打开后什么都没有可能是配置文件的问题，看看主题的说明） hugo server -t 主题名 &amp;ndash;buildDrafts
+在github上建立空仓库
+本地创建public文件 hugo &amp;ndash;theme=toha &amp;ndash;baseUrl=&amp;quot;https://hanhao2017.github.io&amp;rdquo; &amp;ndash;buildDrafts
+进入public文件，将文件全部上传到空仓库中 git init git add . git commit -m &amp;ldquo;我的hugo博客第一次提交&amp;rdquo;
+将本地public与github进行关联 git remote add origin https://github.com/hanhao2017/hanhao2017.github.io.git
+git push -u origin master ​	​	解决 push 失败 rundll32.exe keymgr.dll,KRShowKeyMgr
+两人同时fetch了一个分支。 第一个人修改后提交，第二个人提交就失败。 1.强制推送 $ git push -f
+2.正常解决 先 git fetch origin 然后git merge origin/master, 和本地分支合并, 之后再push。</description>
+    </item>
+    
+  </channel>
+</rss>
