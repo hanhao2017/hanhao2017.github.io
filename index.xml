@@ -12,10 +12,10 @@
     
     <item>
       <title></title>
-      <link>http://example.org/post/hugo%E5%88%9B%E5%BB%BA%E6%96%87%E7%AB%A0/</link>
+      <link>http://example.org/posts/hugo%E5%88%9B%E5%BB%BA%E6%96%87%E7%AB%A0/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/post/hugo%E5%88%9B%E5%BB%BA%E6%96%87%E7%AB%A0/</guid>
+      <guid>http://example.org/posts/hugo%E5%88%9B%E5%BB%BA%E6%96%87%E7%AB%A0/</guid>
       <description>在content中x文件夹里，创建y.md hugo new x/y.md</description>
     </item>
     
