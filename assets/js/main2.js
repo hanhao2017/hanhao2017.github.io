@@ -7,8 +7,8 @@
  
             // 动态的添加content
             function addContent() {
-                var address = ["广东省深圳市", "湖北省武汉市", "江西省南昌市", "福建省厦门市", "湖北省武汉市", "广东省深圳市", "湖北省武汉市", "江西省南昌市", "福建省厦门市", "湖北省武汉市",]
-                for (var i = 0; i < 2; i++) {
+                var address = ["张子枫", "鞠婧祎", "赵丽颖", "蒂法", "成德善", "PTY", "PTY", "江西省南昌市", "福建省厦门市", "湖北省武汉市",]
+                for (var i = 0; i < 6; i++) {
                     // 获取节点class="row"
                     var row = document.getElementsByClassName("row")[10];
                     // 创建div元素节点，并设置其class="col-xs-6"
