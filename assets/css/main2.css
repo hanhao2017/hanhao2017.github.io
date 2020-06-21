@@ -1,0 +1,58 @@
+body{
+    background: #ccc;
+    padding: 5px;
+}
+/* header开始 */
+.header2{
+    margin-top: 10px;
+    background: #fad8dd;
+    height: 56px;
+    padding:10px;
+}
+.sperate-line2{
+    margin-top: 20px;
+    border: 1;
+    border-top: 1px solid rgb(182, 176, 176);
+}
+/* header结束 */
+/* content开始 */
+.content-title2{
+    border-left: 6px solid #f61738;
+    text-indent: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    overflow:hidden;
+    position: relative;
+}
+.img2{
+    max-width: 100%;
+    max-height: 100%;
+    border-radius:10px; 
+    margin: 5px 0px;  
+    object-fit: cover;
+    text-align: center;
+    
+}
+.title2{
+    padding:5px 5px;
+}
+.title-left2{
+    float:left;
+    padding-right: 10px;
+    border-right: 1px solid #d8d2d2;
+    line-height: 11px;
+}
+.title-left-address2{
+    font-size: 13px;
+    color: #988f8f;
+}
+.title-right2{
+    float: right;
+    /* margin-right: 15px; */
+}
+.title-right-like2{
+	width: 22px;
+}
+.title-right-numLike2{
+margin-left: 10px;
+}
