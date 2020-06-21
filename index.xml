@@ -19,5 +19,28 @@
       <description>在content中x文件夹里，创建y.md hugo new x/y.md</description>
     </item>
     
+    <item>
+      <title></title>
+      <link>http://example.org/posts/%E5%AD%A6%E4%B9%A0%E6%89%80%E5%BE%97/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://example.org/posts/%E5%AD%A6%E4%B9%A0%E6%89%80%E5%BE%97/</guid>
+      <description>css ​	css在html中用class=“”在引用，是用来设计页面框架的
+需要在head部分 添加
+各种属性介绍：
+https://www.runoob.com/cssref/css-reference.html
+js js是提供各种功能响应的
+可以用链接模块来触发，比如button等
+也可以是打开网页的时候就加载出来
+需要在head部分、或者放在body的结尾link
+声明变量
+var 变量名 = ；
+​	document.getElementsByClassName(“”);//获取指定class的模块
+​	document.getElementsById(“”); //获取指定id的模块
+​	document.createElement(&amp;quot;&amp;quot;); //创建元素模块img、div等
+​	变量名.src =
+​	变量名.className =</description>
+    </item>
+    
   </channel>
 </rss>

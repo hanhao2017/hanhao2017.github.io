@@ -7,7 +7,15 @@
   </url>
   
   <url>
+    <loc>http://example.org/posts/%E5%AD%A6%E4%B9%A0%E6%89%80%E5%BE%97/</loc>
+  </url>
+  
+  <url>
     <loc>http://example.org/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>http://example.org/posts/</loc>
   </url>
   
   <url>
